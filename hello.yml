@@ -6,3 +6,6 @@
     - name: Say Hello
       ansible.builtin.debug:
         msg: "Hellooo AWXXX"
+    - name: Pause for 5 seconds
+      ansible.builtin.pause:
+        seconds: 7
